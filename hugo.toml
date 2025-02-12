@@ -1,0 +1,16 @@
+baseURL = 'https://solar.itu.dk/'
+languageCode = 'da-DK'
+title = 'ITU solar server'
+theme = 'hyde'
+
+[Menus]
+  main = [
+      {Name = "Solar Pad", URL = "https://solar.itu.dk/pad"},
+      {Name = "CCIT", URL = "https://ccit.itu.dk/"},
+      {Name = "Why a solar powered website?", pageRef = '/pages/why' },
+      {Name = "Power", pageRef = '/pages/power' },
+      {Name = "Links", pageRef = '/pages/links' }
+  ]
+  
+[params]
+description = "This website runs on a solar powered server located on the roof of the IT university of copenhagen. It will go off-line during longer periods of bad weather."
