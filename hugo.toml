@@ -14,3 +14,5 @@ theme = 'hyde'
   
 [params]
 description = "This website runs on a solar powered server located on the roof of the IT university of copenhagen. It will go off-line during longer periods of bad weather."
+themeColor = "theme-base-0c"
+
