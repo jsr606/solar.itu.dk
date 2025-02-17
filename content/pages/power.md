@@ -7,12 +7,11 @@ summary = " "
 This website runs on a solar powered server located on the roof of the IT university of copenhagen, and will go off-line during longer periods of bad weather. This page shows live data relating to power supply, power demand, and energy storage.
 power supply
 
-this is a forecast for the coming days, updated daily:
+This is a forecast for the coming days, updated daily:
 
-today partly cloudy daytomorrow partly cloudy dayday after tomorrow partly cloudy day
+/INSERT WEATHER FORECAST/
 
 this weather forecast is powered by XXX.
-power demand
 
 these are live power statistics of the solar powered server:
 
@@ -35,7 +34,4 @@ yes
 battery capacity
 100%
 
-(* load average per 15 minutes)
-battery meter
-
-the background of the top of every page is a battery meter showing the current voltage rating of the battery in the solar data centre.
+The sun background of the top of every page is a battery meter showing the current voltage rating of the battery in the solar data centre.
