@@ -1,4 +1,4 @@
-baseURL = 'http://gatitosgorditos.xyz/'
+baseURL = 'http://gatitosgorditos.xyz/' #this will be changed once we have the fixed IP, now its the test server
 languageCode = 'da-DK'
 title = 'ITU solar server'
 theme = 'hyde'
