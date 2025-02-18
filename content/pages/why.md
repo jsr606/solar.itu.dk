@@ -1,8 +1,9 @@
 +++
 date = '2025-02-12T14:06:47+01:00'
-draft = true
+draft = false
 title = 'Why?'
 summary = " "
+url = "/why"
 +++
 Why a solar powered server on the top of ITU?
 
