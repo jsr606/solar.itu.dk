@@ -1,11 +1,11 @@
-baseURL = 'https://solar.itu.dk/'
+baseURL = 'http://gatitosgorditos.xyz/' #this will be changed once we have the fixed IP, now its the test server
 languageCode = 'da-DK'
 title = 'ITU solar server'
 theme = 'hyde'
 
 [Menus]
   main = [
-      {Name = "Solar Pad", URL = "https://solar.itu.dk/pad"},
+      {Name = "Solar Pad", URL = "/pad"},
       {Name = "CCIT", URL = "https://ccit.itu.dk/"},
       {Name = "Why a solar powered website?", pageRef = '/pages/why' },
       {Name = "Power", pageRef = '/pages/power' },

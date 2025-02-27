@@ -31,8 +31,16 @@
  * Update the foundational and global aspects of the page.
  */
 
+
+
+@font-face {
+  font-family: 'Cyrulik-Sharp';
+  src: url('/fonts/Cyrulik-Sharp.woff') format('woff');
+}
+
+
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Cyrulik-Sharp";
 }
 @media (min-width: 48em) {
   html {
@@ -79,7 +87,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Cyrulik-Sharp";
   font-size: 2.4rem;
 }
 

@@ -1,8 +1,9 @@
 +++
 date = '2025-02-12T14:06:47+01:00'
-draft = true
+draft = false
 title = 'Power'
 summary = " "
+url = "/power"
 +++
 This website runs on a solar powered server located on the roof of the IT university of copenhagen, and will go off-line during longer periods of bad weather. This page shows live data relating to power supply, power demand, and energy storage.
 power supply
