@@ -1,0 +1,31 @@
+name: Solar Homepage CI
+on:
+  push:
+    branches:
+      - master #renawhen when Jacob changes branch name
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.145.0"
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: appleboy/scp-action@master
+        env:
+          HOST: ${{ secrets.HOST }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PORT: ${{ secrets.PORT }}
+          KEY: ${{ secrets.KEY }}
+        with:
+          source: "public/*"
+          target: "/home/luil/solar"
+          strip_components: 1 #test
