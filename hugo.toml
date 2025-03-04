@@ -8,7 +8,7 @@ theme = 'hyde'
       {Name = "Solar Pad", URL = "/pad"},
       {Name = "CCIT", URL = "https://ccit.itu.dk/"},
       {Name = "Why a solar powered website?", pageRef = '/pages/why' },
-      {Name = "Power", pageRef = '/pages/power' },
+      {Name = "Within Limits", pageRef = '/pages/withinLimits' },
       {Name = "Links", pageRef = '/pages/links' }
   ]
   

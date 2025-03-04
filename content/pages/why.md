@@ -13,4 +13,4 @@ This data centre hosts a website presenting the project and a pad for online tex
 
 By consciously imposing infrastructural constraints to our work, we are forced to think within limits. What do we do when the server is down? What can we do to ease the compute load?
 
-![solar server on the roof of ITU](images/solar_closeup.png)
+![solar server on the roof of ITU](/images/solar_closeup.png)
