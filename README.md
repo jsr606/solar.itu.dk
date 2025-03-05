@@ -7,3 +7,19 @@ It is a [Hugo](https://gohuho.io) website with a runner to build and deploy it t
 ## Documentation is a W.I.P
 
 We'll write more about how the site works soon.
+
+## To-Do before deployment
+
+- Fix landing page
+- Remove dates
+- Check images are ok
+- Fully automatic website update
+- Pad configuration
+- SSL
+- JSON files
+- NGINX config for static sites
+- 
+
+## Documentation
+
+- 

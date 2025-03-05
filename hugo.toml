@@ -1,6 +1,6 @@
-baseURL = 'https://gatitosgorditos.xyz/' #this will be changed once we have the fixed IP, now its the test server
+baseURL = 'https://solar.itu.dk/' 
 languageCode = 'da-DK'
-title = 'ITU solar server'
+title = 'ITU Solar Server'
 theme = 'hyde'
 
 [Menus]

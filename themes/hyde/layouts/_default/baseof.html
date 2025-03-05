@@ -5,8 +5,5 @@
     {{ block "main" . -}}{{- end }}
     </main>
 
-    {{ if ne hugo.Environment "development"  }}
-      {{ template "_internal/google_analytics.html" . }}
-    {{ end }}
   </body>
 </html>

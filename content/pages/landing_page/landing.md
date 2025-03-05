@@ -16,5 +16,3 @@ If you have ideas for things to host on the server or would like to add / edit a
 This website draws a lot of inspiration from the [solar website of LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/) as well as the [hedge doc pad](https://pad.data.coop/) hosted by [data coop](https://data.coop/)
 
 Made with generous help and support from James Maguire, Frauke Tom H Mennes, Luis Alfredo Landa Mariaca, Sebastian Büttrich, Julian Charles Philip Priest, Yucheng Lu, Halfdan Hauch Jensen and Halfdan Mouritzen.
-
-test edet 2
