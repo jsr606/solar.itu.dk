@@ -1,0 +1,28 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+
+{{- /* Ensure this only runs for images inside post content */ -}}
+{{- if and (not $u.IsAbs) .Page -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with or (.Page.Resources.Get $path) (resources.Get $path) -}}
+    {{- with .Process "webp" -}}
+      {{- $src = .RelPermalink -}}
+      {{- with $u.RawQuery -}}
+        {{- $src = printf "%s?%s" $src . -}}
+      {{- end -}}
+      {{- with $u.Fragment -}}
+        {{- $src = printf "%s#%s" $src . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Merge attributes and output the final image tag */ -}}
+{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape)) -}}
+<img
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+

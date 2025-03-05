@@ -1,7 +1,13 @@
 baseURL = 'https://solar.itu.dk/' 
 languageCode = 'da-DK'
 title = 'ITU Solar Server'
-theme = 'hyde'
+theme = 'solar_itu_hyde'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.parser.attribute]
+block = true
 
 [Menus]
   main = [
@@ -16,3 +22,10 @@ theme = 'hyde'
 description = "This website runs on a solar powered server located on the roof of the IT university of copenhagen. It will go off-line during longer periods of bad weather."
 themeColor = "theme-base-0c"
 
+[security]
+  enableInlineShortcodes = true
+
+[module]
+  [[module.mounts]]
+  source = 'content'
+  target = 'content'
