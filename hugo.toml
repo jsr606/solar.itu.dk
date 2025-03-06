@@ -15,6 +15,7 @@ block = true
       {Name = "CCIT", URL = "https://ccit.itu.dk/"},
       {Name = "Why a solar powered website?", pageRef = '/pages/why' },
       {Name = "Within Limits", pageRef = '/pages/withinLimits' },
+      {Name = "Get in Touch", pageRef = '/pages/get_in_touch' },
       {Name = "Links", pageRef = '/pages/links' }
   ]
   

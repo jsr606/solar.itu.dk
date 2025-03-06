@@ -5,7 +5,7 @@ title = 'Welcome'
 summary = " "
 url ="/"
 +++
-This is a solar-powered website, which means that lack of sunlight will cause it to be offline at times. It runs on a small solar-powered server located on the roof of the IT University of Copenhagen. As a ‘proof of concept’ infrastructure it is merely a beginning, a site of experimentation for both students and researchers interested in doing computation with constraints.
+This is a solar-powered website, which means that lack of sunlight will cause it to be offline at times. It runs on a small solar-powered server located on the roof of the [IT University of Copenhagen](https://itu.dk/). As a ‘proof of concept’ infrastructure it is merely a beginning, a site of experimentation for both students and researchers interested in doing computation with constraints.
 
 We want you to join us in this experiment! So, if working within limits is something for you then check out our navigation panel (on the left) and get going by, for example, launching a collaborative editing pad. If you have ideas for what the website might host, then [please let us know](mailto:admin@solar.itu.dk). We want to make this a living infrastructure!
 
