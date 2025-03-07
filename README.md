@@ -15,4 +15,5 @@ We'll write more about how the site works soon.
 
 ## Documentation
 
-- [ ] How-to
+- [ ] How-to make projects
+- [ ] Repository with configurations
