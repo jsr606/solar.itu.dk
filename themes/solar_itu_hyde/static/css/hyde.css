@@ -33,14 +33,8 @@
 
 
 
-@font-face {
-  font-family: 'Cyrulik-Sharp';
-  src: url('/fonts/Cyrulik-Sharp.woff') format('woff');
-}
-
-
 html {
-  font-family: "Cyrulik-Sharp";
+  font-family: system-ui, -apple-system, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -87,8 +81,12 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Cyrulik-Sharp";
+  font-family: "Cyrulik-Sharp", system-ui, -apple-system, sans-serif;
   font-size: 2.4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cyrulik-Sharp", system-ui, -apple-system, sans-serif;
 }
 
 .sidebar-about p {
