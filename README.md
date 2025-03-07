@@ -13,7 +13,8 @@ We'll write more about how the site works soon.
 
 - [ ] Fully automatic website update
   - [x] Build script working
-  - [x] Push socket to trigger script 
+  - [ ] Testing
+  - [ ] Push socket to trigger script 
 
 ## Documentation
 
