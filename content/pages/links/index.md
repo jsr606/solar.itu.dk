@@ -6,7 +6,7 @@ summary = " "
 url = "/links"
 +++
 The following is a collection of links related to computation within limits. If you have suggestions for additional limits, please get in touch.
-
+- [Permacomputing](https://permacomputing.net)
 - [Newly Forgotten Technologies: Stories From AI​-​Free Futures album](https://wesleygoatley.bandcamp.com/album/newly-forgotten-technologies-stories-from-ai-free-futures)
 - [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox)
 - [Growth according to Lean Logic](https://leanlogic.online/glossary/growth/)
