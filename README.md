@@ -13,7 +13,7 @@ We'll write more about how the site works soon.
 
 - [ ] Fully automatic website update
   - [x] Build script working
-  - [ ] Testing
+  - [ ] Testing rysinc
   - [ ] Push socket to trigger script 
 
 ## Documentation
