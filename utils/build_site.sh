@@ -1,7 +1,8 @@
 baseURL="https://solar.itu.dk" 
-contentDir="" 
-repoDir="" 
-outputDir="/tmp/solar/" 
+contentDir="/home/luil/home_page" 
+repoDir="/home/luil/solar.itu.dk" 
+outputDir="/tmp/solar/"
+finalDir="/var/www/test/"
 
 # Check for updates in Git
 echo "Checking for updates in $repoDir"
