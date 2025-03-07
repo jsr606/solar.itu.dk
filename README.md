@@ -10,16 +10,9 @@ We'll write more about how the site works soon.
 
 ## To-Do before deployment
 
-- Fix landing page
-- Remove dates
-- Check images are ok
-- Fully automatic website update
-- Pad configuration
-- SSL
-- JSON files
-- NGINX config for static sites
-- 
+
+- [ ] Fully automatic website update
 
 ## Documentation
 
-- 
+- [ ] How-to
