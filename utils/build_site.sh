@@ -2,7 +2,7 @@ baseURL="https://solar.itu.dk"
 contentDir="/home/luil/home_page" 
 repoDir="/home/luil/solar.itu.dk" 
 outputDir="/tmp/solar/"
-finalDir="/var/www/test/"
+finalDir="/var/www/solar/"
 
 # Check for updates in Git
 echo "Checking for updates in $repoDir"
@@ -30,7 +30,7 @@ fi
 
 # Move the built site to the live directory
 echo "Deploying site to $finalDir"
-sudo mv "$outputDir" "$finalDir"
+sudo rsync -a --delete "$outputDir"* "$finalDir"/
 
 # Set correct ownership and permissions
 sudo chown -R www-data:www-data "$finalDir"
